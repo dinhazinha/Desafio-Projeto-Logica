@@ -22,4 +22,4 @@ if (XP < 1000 ) {
     XP = "Radiante";
 
 
-console.log("O Herói de nome", $(nomeDoHeroi), "está no nível", $(XP))
+console.log("O Herói de nome", ${nomeDoHeroi}, "está no nível", ${XP})
