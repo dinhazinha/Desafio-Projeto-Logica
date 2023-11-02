@@ -1,31 +1,27 @@
-var herois = [Homen-aranha, Hulk, Homen-de-Ferro, Doutor-Estranho, Pantera-Negra, Thor]
+let heroi = " Super-Hero"
 
-let vitorias = 
-let derrotas = 
+let vitorias = 5;
+let derrotas = 0;
 
 saldoDeRankeadas = vitorias - derrotas;
 
 function saldoDeRankeadas(vitorias, derrotas) {
     return saldoDeRankeadas
-}
+} console.log(saldoDeRankeadas);
 
-console.log(saldoDeRankeadas);
-
-for(let i = 0; i >= 101; i++){
     if (vitorias < 10) {
-        Ferro();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Ferro`)
     } else if ((vitorias > 11) && (vitorias <= 20)) {
-        Bronze();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Bronze`)
     } else if ((vitorias > 21) && (vitorias <= 50)) {
-        Prata();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Prata`)
     } else if ((vitorias > 51) && (vitorias <= 80)) {
-        Ouro();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Ouro`)
     } else if ((vitorias > 81) && (vitorias <= 90)) {
-        Diamante();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Diamante`)
     } else if ((vitorias > 91) && (vitorias <= 100)) {
-        Lendario ();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Lendario`)
     } else (vitorias >= 101)
-        Imortal ();
+        console.log(`O Herói tem de saldo de ${saldoDeRankeadas} vitorias, está no nível Imortal`);
 }
 
-console.log("O Herói tem de saldo de " ${saldoVitorias}, "está no nível de" ${nivel})
